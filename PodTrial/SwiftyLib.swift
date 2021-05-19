@@ -9,7 +9,7 @@ import Foundation
 
 public final class SwiftyLib {
 
-    public let name = "SwiftyLib-name updated"
+    public let name = "SwiftyLib-name updated again"
     public init(){}
     public func add(a: Int, b: Int) -> Int {
         return a + b
