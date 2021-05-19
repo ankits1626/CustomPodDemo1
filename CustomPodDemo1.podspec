@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |spec|
 
   spec.name         = "CustomPodDemo1"
@@ -10,12 +11,12 @@ This CocoaPods library helps you perform calculation.
 
   spec.homepage     = "https://github.com/ankits1626/CustomPodDemo1"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "jeantimex" => "jean.timex@gmail.com" }
+  spec.author             = { "Ankit Sachan" => "ankit@rewardz.sg" }
 
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/ankits1626/CustomPodDemo1.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/ankits1626/CustomPodDemo1.git", :branch => "master", :tag => "#{spec.version}" }
   spec.source_files  = "PodTrial/**/*.{h,m,swift}"
 
 end
