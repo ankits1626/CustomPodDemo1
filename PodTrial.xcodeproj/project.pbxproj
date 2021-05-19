@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		98F624642654A7FB0086B818 /* PodTrial.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F624622654A7FB0086B818 /* PodTrial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98F6246C2654A9B40086B818 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F6246B2654A9B40086B818 /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98F6245F2654A7FB0086B818 /* PodTrial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodTrial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F624622654A7FB0086B818 /* PodTrial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodTrial.h; sourceTree = "<group>"; };
 		98F624632654A7FB0086B818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F6246B2654A9B40086B818 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				98F624622654A7FB0086B818 /* PodTrial.h */,
 				98F624632654A7FB0086B818 /* Info.plist */,
+				98F6246B2654A9B40086B818 /* SwiftyLib.swift */,
 			);
 			path = PodTrial;
 			sourceTree = "<group>";
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					98F6245E2654A7FB0086B818 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F6246C2654A9B40086B818 /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		98F624682654A7FB0086B818 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rewardz.RewardzCommonComponents.PodTrial;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		98F624692654A7FB0086B818 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
