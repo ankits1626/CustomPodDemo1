@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CustomPod2
 
 public final class SwiftyLib {
 
@@ -23,4 +24,7 @@ public final class SwiftyLib {
         return a * b
     }
     
+    public func callCustomPod2(){
+        CommonLogger().log(error: "<<<<<<<<<<< yahooooo!!!! common logger called from demo1 framework")
+    }
 }
