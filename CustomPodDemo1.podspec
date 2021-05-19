@@ -16,7 +16,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/ankits1626/CustomPodDemo1.git", :branch => "master", :tag => spec.version.to_s }
+  spec.source        = { :git => "https://github.com/ankits1626/CustomPodDemo1.git", :branch => "master" }
   spec.source_files  = "PodTrial/**/*.{h,m,swift}"
 
 end
